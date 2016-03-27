@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
-    "declaration": true,
+  	"module": "commonjs",
+  	"declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true,
-    "outDir": "dist"
+  	"sourceMap": true,
+    "listFiles": false,
+  	"outDir": "dist",
+    "rootDir": "src"
   },
   "exclude": [
     "node_modules",
