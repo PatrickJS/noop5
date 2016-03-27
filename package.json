@@ -1,0 +1,22 @@
+{
+  "name": "noop5",
+  "version": "1.0.0",
+  "description": "noop with typescript support",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc || true",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdi2290/noop5.git"
+  },
+  "author": "PatrickJS <github@gdi2290.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdi2290/noop5/issues"
+  },
+  "homepage": "https://github.com/gdi2290/noop5#readme"
+}
